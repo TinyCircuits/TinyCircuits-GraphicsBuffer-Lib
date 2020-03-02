@@ -1,15 +1,15 @@
 # TinyCircuits Graphics Buffer Library
 
-This Arduino library is intended for use with TinyCircuits' **[0.42" OLED Wireling](https://tinycircuits.com/collections/wireling-displays-leds/products/0-42-oled-screen-wireling)**, **[0.69" OLED Wireling](https://tinycircuits.com/collections/wireling-displays-leds/products/0-69-oled-screen-wireling)**, and **[https://tinycircuits.com/collections/wireling-displays-leds/products/0-96-oled-screen-wireling]()**. 
+This Arduino library is intended for use with TinyCircuits' **[0.42" OLED Wireling](https://tinycircuits.com/collections/wireling-displays-leds/products/0-42-oled-screen-wireling)**, **[0.69" OLED Wireling](https://tinycircuits.com/collections/wireling-displays-leds/products/0-69-oled-screen-wireling)**, and **[0.96" OLED Wireling](https://tinycircuits.com/collections/wireling-displays-leds/products/0-96-oled-screen-wireling)**. 
 
 *Support this library by buying products from **[TinyCircuits](https://tinycircuits.com/)***
 
 
 ## Graphics Buffer Class Basics
 
-After using the constructor *GraphicsBuffer(const uint16_t widthInit, const uint16_t heightInit, const uint8_t bitsPerPixelInit)* to create a Graphics Buffer object using the width, height, and BPP, you can use any of the following functions to add a graphic or text element to a buffer to send and display on a screen. To display the buffer on the screen, you will need to use the **[TinierScreen library](https://github.com/TinyCircuits/TinyCircuits-TinierScreen-Lib)** that the Graphics Buffer library example relies on.
+After using the constructor *GraphicsBuffer(const uint16_t widthInit, const uint16_t heightInit, const uint8_t bitsPerPixelInit)* to create a Graphics Buffer object using the width, height, and BPP, you can use any of the following functions to add a graphic or text element to a buffer to send and display on a screen. To display the buffer on the screen, you will need to use the **[TinierScreen library](https://github.com/TinyCircuits/TinyCircuits-TinierScreen-Lib)** that the Graphics Buffer library example depends upon.
 
-* **void writePixel(uint16_t)**
+* **void writePixel(uint16_t)** 
 * **void setX(uint8_t, uint8_t)**
 * **void setY(uint8_t, uint8_t)**
 * **void goTo(uint8_t x, uint8_t y)**
