@@ -24,9 +24,9 @@ After using the constructor *GraphicsBuffer(const uint16_t widthInit, const uint
 * **void setFont(const FONT_INFO&)**
 * **uint8_t getFontHeight(const FONT_INFO&)**
 * **uint8_t getFontHeight(void)**
-* **uint8_t getPrintWidth(char *)**
+* **uint8_t getPrintWidth(char \*)**
 * **void setCursor(int, int)**
 * **void fontColor(uint16_t, uint16_t)**
 * **virtual size_t write(uint8_t)**
-* **uint8_t* getBuffer()**
+* **uint8_t\* getBuffer()**
 * **uint16_t getBufferSize()**
